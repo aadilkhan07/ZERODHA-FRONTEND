@@ -72,13 +72,27 @@
             padding: 20px;
         }
         
-        .signup-mobile-input input {
-            width: calc(100% - 30px);
-            padding: 10px;
-            font-size: 16px;
-            margin-top: 10px;
+        .signup-mobile-input {
+            display: flex;
+            align-items: center;
             border: 1px solid #ccc;
             border-radius: 5px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        
+        .signup-mobile-input span {
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-right: 1px solid #ccc;
+        }
+        
+        .signup-mobile-input input {
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            width: 100%;
+            outline: none;
         }
         
         .button-blue {
@@ -122,17 +136,6 @@
         .landing-sub-text {
             font-size: 14px;
             margin-top: 5px;
-        }
-        
-        .mobile-pretext {
-            position: absolute;
-            left: 10px;
-            top: 15px;
-            font-size: 16px;
-        }
-        
-        .signup-mobile-input {
-            position: relative;
         }
         
         .su-input-label {
@@ -251,8 +254,8 @@
                             <h1 class="text-black landing-head">Signup now</h1>
                             <span class="text-grey sub-text landing-sub-text">Or track your existing application.</span>
                             <form class="md signup-mobile-form">
+                                <label class="su-input-label">Mobile number</label>
                                 <div class="signup-mobile-input su-input-group su-static-label">
-                                    <label class="su-input-label">Mobile number</label>
                                     <span class="mobile-pretext">+91</span>
                                     <input type="number" placeholder="" maxlength="10" autofocus="autofocus" class="su-spinner">
                                 </div>
@@ -317,7 +320,7 @@
                 to securities broking please write to complaints@zerodha.com, for DP related to dp@zerodha.com. Please ensure you carefully read the Risk Disclosure Document as prescribed by SEBI | CFT</p>
             <p>Procedure to file a complaint on SEBI SCORES: Register on SCORES portal. Mandatory details for filing complaints on SCORES: Name, PAN, Address, Mobile Number, E-mail ID. Benefits: Effective Communication, Speedy redressal of the grievances</p>
             <p>Investments in securities market are subject to market risks; read all the related documents carefully before investing.</p>
-            <p>Attention investors: 1) Stock brokers can accept securities as margins from clients only by way of pledge in the depository system w.e.f. September 01, 2020. 2) Update your e-mail and phone number with your stock broker / depository participant
+            <p>Attention investors: 1 Stock brokers can accept securities as margins from clients only by way of pledge in the depository system w.e.f. September 01, 2020. 2) Update your e-mail and phone number with your stock broker / depository participant
                 and receive OTP directly from depository on your e-mail and/or mobile number to create pledge. 3) Check your securities / MF / bonds in the consolidated account statement issued by NSDL/CDSL every month.</p>
             <p>“Prevent unauthorised transactions in your account. Update your mobile numbers/email IDs with your stock brokers. Receive information of your transactions directly from Exchange on your mobile/email at the end of the day. Issued in the interest
                 of investors. KYC is one time exercise while dealing in securities markets - once KYC is done through a SEBI registered intermediary (broker, DP, Mutual Fund etc.), you need not undergo the same process again when you approach another
