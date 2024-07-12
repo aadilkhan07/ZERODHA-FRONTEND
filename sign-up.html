@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-between;
+            height: 70px;
+            background-color: #fff;
+            width: 100%;
+            box-sizing: border-box;
+            font-size: 16px;
+            font-weight: 400;
+            box-shadow: 2px 1px 2px #eee;
+            z-index: 1000;
+            padding: 0 20px;
+        }
+        
+        .navbar img {
+            cursor: pointer;
+            width: 180px;
+            height: 70px;
+            margin-left: 100px;
+            margin-bottom: 30px;
+        }
+        
+        .body-container {
+            padding-top: 100px;
+            padding-bottom: 20vh;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .container {
+            position: relative;
+            max-width: 950px;
+            width: 80%;
+            padding: 0;
+            box-sizing: border-box;
+            margin: 0 auto;
+            display: block;
+        }
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            unicode-bidi: isolate;
+        }
+        
+        .left img {
+            box-sizing: border-box;
+            overflow-clip-margin: content-box;
+            overflow: clip;
+        }
+        
+        .right {
+            padding: 20px;
+        }
+        
+        .signup-mobile-input {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        
+        .signup-mobile-input span {
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-right: 1px solid #ccc;
+        }
+        
+        .signup-mobile-input input {
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            width: 100%;
+            outline: none;
+        }
+        
+        .button-blue {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .button-blue:hover {
+            background-color: #0056b3;
+        }
+        
+        .text-grey {
+            color: #6c757d;
+        }
+        
+        .text-12 {
+            font-size: 12px;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        .text-black {
+            color: #000;
+        }
+        
+        .landing-head {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .landing-sub-text {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        
+        .su-input-label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        
+        .input-status {
+            margin-top: 10px;
+            margin-bottom: 0;
+        }
+        
+        .signup-mobile-form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer {
+            background-color: #f8f9fa;
+            padding: 40px 20px;
+            border-top: 1px solid #dee2e6;
+            margin-top: 50px;
+        }
+        
+        .footer .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .footer .container div {
+            flex: 1;
+            min-width: 150px;
+            margin: 10px;
+        }
+        
+        .footer h5 {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        
+        .footer a {
+            display: block;
+            color: #007bff;
+            margin-bottom: 5px;
+            font-size: 14px;
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        .footer p {
+            font-size: 12px;
+            color: #6c757d;
+            margin-bottom: 5px;
+        }
+        
+        .footer .social a {
+            display: inline-block;
+            margin-right: 10px;
+            color: #6c757d;
+            font-size: 20px;
+        }
+        
+        .footer .social a:hover {
+            color: #007bff;
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            font-size: 12px;
+            color: #6c757d;
+            padding-top: 10px;
+        }
+        
+        .footer-bottom a {
+            margin: 0 10px;
+        }
+        
+        .footer-bottom p a {
+            display: inline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <img src="zerodha6662.jpg" alt="Zerodha Logo">
+    </div>
+
+    <main>
+        <div class="body-container">
+            <div class="container">
+                <div class="row v-middle">
+                    <div class="seven columns left">
+                        <img src="landing.46a77378.png" alt="Zerodha's signup landing page" role="img">
+                    </div>
+                    <div class="one column">
+                        <p></p>
+                    </div>
+                    <div class="four columns right">
+                        <div class="phone-no-container">
+                            <h1 class="text-black landing-head">Signup now</h1>
+                            <span class="text-grey sub-text landing-sub-text">Or track your existing application.</span>
+                            <form class="md signup-mobile-form">
+                                <label class="su-input-label">Mobile number</label>
+                                <div class="signup-mobile-input su-input-group su-static-label">
+                                    <span class="mobile-pretext">+91</span>
+                                    <input type="number" placeholder="" maxlength="10" autofocus="autofocus" class="su-spinner">
+                                </div>
+                                <p class="text-grey text-12 input-status">You will receive an OTP on your number</p>
+                                <button type="submit" class="button button-blue signup-mobile-submit">Continue</button>
+                                <p class="text-12"><a href="https://zerodha.com/open-account/nri">Want to open an NRI account?</a></p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <p class="text-12 text-grey text-center">
+                    I authorise Zerodha to contact me even if my number is registered on DND. I authorise Zerodha to fetch my KYC information from the C-KYC registry with my PAN. Please visit <a target="_blank" href="https://support.zerodha.com/category/console/reports/other-queries/articles/details-collected-when-opening-an-account">this article</a>                    to know more. <br><br> If you are looking to open a HUF, Corporate, Partnership, or NRI account, you have to use the <a target="_blank" href="https://zerodha.com/resources">offline forms.</a> For help, <a target="_blank" href="https://support.zerodha.com/category/account-opening/company-partnership-and-huf-account-opening?language=english">click here.</a>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div>
+                <img src="zerodha6662.jpg" alt="Zerodha Logo" style="width: 150px;">
+                <p><a href="tel:+918047192020">080 4719 2020</a></p>
+                <p>© 2010 - 2024 Zerodha Broking Ltd. All rights reserved.</p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div>
+                <h5>Company</h5>
+                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="#">Pricing</a>
+                <a href="#">Referral programme</a>
+                <a href="#">Careers</a>
+                <a href="#">Zerodha.tech</a>
+                <a href="#">Press & media</a>
+                <a href="#">Zerodha Cares (CSR)</a>
+            </div>
+            <div>
+                <h5>Support</h5>
+                <a href="#">Contact</a>
+                <a href="#">Support portal</a>
+                <a href="#">Z-Connect blog</a>
+                <a href="#">List of charges</a>
+                <a href="#">Downloads & resources</a>
+                <a href="#">Videos</a>
+                <a href="#">Market overview</a>
+            </div>
+            <div>
+                <h5>Account</h5>
+                <a href="#">Open an account</a>
+                <a href="#">Fund transfer</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Zerodha Broking Ltd.: Member of NSE & BSE – SEBI Registration no.: INZ000031633 CDSL: Depository services through Zerodha Broking Ltd. – SEBI Registration no.: IN-DP-431-2019 Commodity Trading through Zerodha Commodities Pvt. Ltd. MCX: 46025
+                – SEBI Registration no.: INZ000038238 Registered Address: Zerodha Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For any complaints pertaining
+                to securities broking please write to complaints@zerodha.com, for DP related to dp@zerodha.com. Please ensure you carefully read the Risk Disclosure Document as prescribed by SEBI | CFT</p>
+            <p>Procedure to file a complaint on SEBI SCORES: Register on SCORES portal. Mandatory details for filing complaints on SCORES: Name, PAN, Address, Mobile Number, E-mail ID. Benefits: Effective Communication, Speedy redressal of the grievances</p>
+            <p>Investments in securities market are subject to market risks; read all the related documents carefully before investing.</p>
+            <p>Attention investors: 1 Stock brokers can accept securities as margins from clients only by way of pledge in the depository system w.e.f. September 01, 2020. 2) Update your e-mail and phone number with your stock broker / depository participant
+                and receive OTP directly from depository on your e-mail and/or mobile number to create pledge. 3) Check your securities / MF / bonds in the consolidated account statement issued by NSDL/CDSL every month.</p>
+            <p>“Prevent unauthorised transactions in your account. Update your mobile numbers/email IDs with your stock brokers. Receive information of your transactions directly from Exchange on your mobile/email at the end of the day. Issued in the interest
+                of investors. KYC is one time exercise while dealing in securities markets - once KYC is done through a SEBI registered intermediary (broker, DP, Mutual Fund etc.), you need not undergo the same process again when you approach another
+                intermediary.” Dear Investor, if you are subscribing to an IPO, there is no need to issue a cheque. Please write the Bank account number and sign the IPO application form to authorise your bank to make payment in case of allotment. In
+                case of non allotment the funds will remain in your bank account. As a business we don’t give stock tips, and have not authorized anyone to trade on behalf of others. If you find anyone claiming to be part of Zerodha and offering such
+                services, please create a ticket here.</p>
+            <p>
+                <a href="#">NSE</a> |
+                <a href="#">BSE</a> |
+                <a href="#">MCX</a> |
+                <a href="#">Terms & conditions</a> |
+                <a href="#">Policies & procedures</a> |
+                <a href="#">Privacy policy</a> |
+                <a href="#">Disclosure</a> |
+                <a href="#">For investor's attention</a> |
+                <a href="#">Investor charter</a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
