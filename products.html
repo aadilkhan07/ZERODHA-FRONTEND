@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+</head>
+<body style="overflow-x: hidden;">
+    <nav class="navbar" style="top: 0; width: 100%; z-index: 10; position: fixed; background-color: #fff; box-shadow: 2px 1px 2px #eee; box-sizing: border-box; perspective: 600px; color: #424242; font-family: sans-serif; height: 67px; font-size: 16px; line-height: 1.7; font-weight: 400;">
+        <div class="container" style="padding: 0; position: relative; width: 1100px; max-width: 100%; margin: 0 auto; box-sizing: border-box; color: #424242; font-family: sans-serif; line-height: 1.15; font-size: 16px; font-weight: 400;">
+            <div class="nav-responsive row between" style="justify-content: space-between; box-sizing: border-box; display: flex; flex: 0 1 auto; flex-flow: row wrap; color: #424242; font-family: sans-serif; line-height: 1.5; font-size: 16px; font-weight: 400;">
+                <div class="relative-section five columns" style="margin-left: 0; position: relative; flex-basis: 39.3333333333%; box-sizing: border-box; flex: 0 1 auto; font-family: sans-serif; color: #424242; font-size: 16px; line-height: 1.7; font-weight: 400;">
+                    <img src="/images/logo1.svg" alt="" style="max-height: 17px; vertical-align: middle; position: relative; top: 18px; max-width: 100%; border-style: none; font-weight: 400; color: #387ed1; font-family: sans-serif;cursor: pointer;">
+                </div>
+                <div class="nav-active seven columns" role="navigation" aria-label="main navigation" style="flex-basis: 56.6666666667%; box-sizing: border-box; flex: 0 1 auto; font-family: sans-serif; font-size: 16px; line-height: 1.7; font-weight: 400; color: #424242;">
+                    <ul class="navbar-links" style="list-style-type: none; text-align: right; margin: 0; padding: 0; font-family:sans-serif; font-size: 16px; line-height: 1.7; font-weight: 400; color: #424242;">
+                        <li class="hide-on-small" style="display: inline; list-style-type: none; text-align: right; color: #424242; font-family:sans-serif; font-size: 16px; line-height: 1.7; font-weight: 400;">
+                            <a href="/sign-up.html" style="color: #666; font-size: .9rem; transition: color .3s; display: inline-block; padding: 20px; box-sizing: border-box; list-style-type: none; text-align: right; background-color: rgba(0,0,0,0); text-decoration: none; font-weight: 400; font-family: sans-serif; line-height: 1.7;">Signup</a>  
+                        </li>
+                        <li class="hide-on-small" style="display: inline; list-style-type: none; text-align: right; color: #424242; font-family:sans-serif; font-size: 16px; line-height: 1.7; font-weight: 400;">
+                            <a href="./about.html" style="color: #666; font-size: .9rem; transition: color .3s; display: inline-block; padding: 20px; box-sizing: border-box; list-style-type: none; text-align: right; background-color: rgba(0,0,0,0); text-decoration: none; font-weight: 400; font-family: sans-serif; line-height: 1.7;">About</a>  
+                        </li>
+                        <li class="hide-on-small" style="display: inline; list-style-type: none; text-align: right; color: #424242; font-family:sans-serif; font-size: 16px; line-height: 1.7; font-weight: 400;">
+                            <a href="./products.html" style="color: #666; font-size: .9rem; transition: color .3s; display: inline-block; padding: 20px; box-sizing: border-box; list-style-type: none; text-align: right; background-color: rgba(0,0,0,0); text-decoration: none; font-weight: 400; font-family: sans-serif; line-height: 1.7;">Products</a>  
+                        </li>
+                        <li class="hide-on-small" style="display: inline; list-style-type: none; text-align: right; color: #424242; font-family:sans-serif; font-size: 16px; line-height: 1.7; font-weight: 400;">
+                            <a href="/pricing.html" style="color: #666; font-size: .9rem; transition: color .3s; display: inline-block; padding: 20px; box-sizing: border-box; list-style-type: none; text-align: right; background-color: rgba(0,0,0,0); text-decoration: none; font-weight: 400; font-family: sans-serif; line-height: 1.7;">Pricing</a>  
+                        </li>
+                        <li class="hide-on-small" style="display: inline; list-style-type: none; text-align: right; color: #424242; font-family:sans-serif; font-size: 16px; line-height: 1.7; font-weight: 400;">
+                            <a href="./support.html" style="color: #666; font-size: .9rem; transition: color .3s; display: inline-block; padding: 20px; box-sizing: border-box; list-style-type: none; text-align: right; background-color: rgba(0,0,0,0); text-decoration: none; font-weight: 400; font-family: sans-serif; line-height: 1.7;">Support</a>  
+                        </li>
+                        <li id="navbar_menu" style="padding-top: 20px;
+                        padding-bottom: 20px;
+                        padding-left: 15px;  display: inline;list-style-type: none;
+                        text-align: right;  color: #424242;font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;width: 18px;height: 19px;">
+  <div id="menu_btn" class="cursor-pointer" title="menu" style="color: #666;
+  font-weight: 400;
+  display: inline-block;
+  padding: 20px 0;list-style-type: none;
+  text-align: right;color: #424242;"></div>
+
+</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="content parent-content" style="display: block; color: #424242; font-family: sans-serif; font-size: 16px; line-height: 1.7; font-weight: 400;  width: 1440px;height: 3980px;">
+        <main class="content">
+            <section class="investments-header text-center container-bottom" style="margin-bottom: 40px; padding: 100px 0 130px 0; border-bottom: 1px solid #eee; text-align: center; position: relative; width: 1100px; height: 363px; margin: 0 auto; box-sizing: border-box; color: #424242; font-family: sans-serif; font-size: 16px; line-height: 1.7; font-weight: 400;">
+                <h1 style="margin-bottom: 0; font-size: 2.75rem; line-height: 1.25; margin-top: 0px; font-weight: 500; margin: .67em 0; text-align: center; color: #424242; font-family: sans-serif;">Investments</h1>  
+                <h5 style="margin-top: 10px; font-size: 1.25rem; font-weight: 400; margin-bottom: 20px; text-align: center; color: #424242; line-height: 1.7; font-family: sans-serif; width: 100%; max-width: 1100px; height: 35px;">Everything from equities and derivatives to mutual funds and fixed income</h5>
+                <p style="font-size: 1rem; line-height: 1.8; margin-bottom: 15px; text-align: center; color: #424242; font-weight: 400; font-family: sans-serif; width: 100%; max-width: 1100px; height: 28px;">Checkout our
+                    <a href="#" style="color: #387ed1; text-decoration: none; font-weight: 500; background-color: rgba(0,0,0,0); font-size: 1rem; line-height: 1.8; text-align: center; font-family: sans-serif;">technology offering
+                        <span>→</span>
+                    </a>
+                </p>
+            </section> 
+            <section id="kite" class="products-section" style="  padding: 80px 0 0 0;font-family: sans-serif;color: #424242;
+            font-size: 16px;
+            line-height: 1.7;
+            font-weight: 400;">
+            <div class="container" style="position: relative;
+            width: 1100px;
+            max-width: 100%;
+            margin: 0 auto;
+            box-sizing: border-box;font-family: sans-serif;color: #424242;
+            font-size: 16px;
+            line-height: 1.7;
+            font-weight: 400;">
+            <div class="row between v-align" style="box-sizing: border-box;  flex-flow: row wrap;  justify-content: space-between;align-items: center;font-family: sans-serif;color: #424242;
+            font-size: 16px;line-height: 1.7;font-weight: 400;display: flex;">
+
+
+<div class="column seven text-center" style="  margin-left: 0;  text-align: center;flex-basis: 56.6666666667%;width: 56.6666666667%;box-sizing: border-box;flex: 0 1 auto;font-family: sans-serif;color: #424242;
+  font-size: 16px;line-height: 1.7;font-weight: 400;width: 623px;height: 428px;">
+  <a href="">
+    <img src="/images/products-kite.png" alt="" style="  max-width: 100%;  border-style: none;width: 558px;height: 428px;">
+  </a>
+</div>
+<div class="columns four" style="flex-basis: 30.6666666667%;
+  width: 30.6666666667%;box-sizing: border-box;
+  flex: 0 1 auto;width: 337px;height: 332px;font-family: sans-serif;color: #424242;
+  font-size: 16px;line-height: 1.7;font-weight: 400;">
+  <h2 style=" font-size: 2rem;line-height: 1.5;margin-top: 0px;
+  font-weight: 500;
+  margin-bottom: 20px;font-family: sans-serif;">
+    Kite</h2>
+<p style="font-size: 1rem;
+line-height: 1.8;
+margin-bottom: 15px;  color: #424242;font-family: sans-serif;font-weight: 400;">Our ultra-fast flagship trading platform with streaming market data, advanced charts, an elegant UI, and more. Enjoy the Kite experience seamlessly on your Android and iOS devices. </p>
+<div class="row" style="box-sizing: border-box;
+display: flex;
+flex-flow: row wrap;width: 337px;height: 27px;color: #424242;
+font-size: 16px;line-height: 1.7;font-weight: 400;">
+<div class="six columns" style="  margin-left: 0;flex-basis: 48%;
+  width: 48%;box-sizing: border-box;
+  flex: 0 1 auto;font-family: sans-serif;color: #424242;
+  font-size: 16px;line-height: 1.7;font-weight: 400;">
+  
+  <a href="" style="color: #387ed1;
+  text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);">Try demo →</a>
+
+</div>
+  
+<div class="six columns" style="  margin-left: 0;flex-basis: 48%;
+  width: 48%;box-sizing: border-box;
+  flex: 0 1 auto;font-family: sans-serif;color: #424242;
+  font-size: 16px;line-height: 1.7;font-weight: 400;">
+  
+  <a href="" style="color: #387ed1;
+  text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);">Learn more →</a>
+
+</div>
+</div>
+<div class="kite-mobile-links" style="margin-top: 25px;font-family: sans-serif;color: #424242;
+  font-size: 16px;line-height: 1.7;font-weight: 400;">
+  <a href="">
+    <img src="/images/google-play-badge.svg" alt="" style="margin-right: 15px;  height: 45px;  max-width: 100%;  border-style: none;"></a>
+<a href="">
+    <img src="/images/appstore-badge.svg" alt="" style=" height: 45px;  max-width: 100%;  border-style: none;">
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>   
+<section id="console" class="products-section" style="  padding: 80px 0 0 0;font-family: sans-serif;color: #424242;
+font-size: 16px;
+line-height: 1.7;
+font-weight: 400;">
+  <div class="container" style="position: relative;
+  width: 1100px;
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;font-family: sans-serif;color: #424242;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;">
+   <div class="row between v-align" style="box-sizing: border-box;  flex-flow: row wrap;  justify-content: space-between;align-items: center;font-family: sans-serif;color: #424242;
+   font-size: 16px;line-height: 1.7;font-weight: 400;display: flex;">
+   
+<div class="columns four-img-right" style="  margin-left: 0;flex-basis: 30.6666666667%;
+  width: 30.6666666667%;box-sizing: border-box;font-family: sans-serif;color: #424242;
+  font-size: 16px;line-height: 1.7;font-weight: 400;
+  flex: 0 1 auto;">
+    <h2 style="font-size: 2rem;
+  line-height: 1.5;margin-top: 0px;
+  font-weight: 500;
+  margin-bottom: 20px;font-family: sans-serif;">Console</h2>
+  <p style="font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;color: #424242;font-family: sans-serif;font-weight: 400;">The central dashboard for your Zerodha account. Gain insights into your trades and investments with in-depth reports and visualisations. </p>
+
+<a href="" style="color: #387ed1;
+text-decoration: none;
+font-weight: 500;  background-color: rgba(0,0,0,0);">Learn more →</a>
+</div>
+<div class="column seven-text-center" style="  text-align: center;flex-basis: 56.6666666667%;
+  width: 56.6666666667%;box-sizing: border-box;
+  flex: 0 1 auto;">
+  <a href="">
+<img src="/images/products-console.png" alt="" style="max-width: 100%; border-style: none;width: 623px;height: 611px;">
+
+  </a>
+</div>
+</div>
+</div>
+</section>
+<section id="coin" class="products-section" style="  padding: 80px 0 0 0;font-family: sans-serif;color: #424242;
+  font-size: 16px;line-height: 1.7;font-weight: 400;">
+   <div class="container" style="position: relative;
+   width: 1100px;
+   max-width: 100%;
+   margin: 0 auto;
+   box-sizing: border-box;font-family: sans-serif;color: #424242;
+   font-size: 16px;
+   line-height: 1.7;
+   font-weight: 400;">
+    <div class="row between v-align" style="box-sizing: border-box;  flex-flow: row wrap;  justify-content: space-between;align-items: center;font-family: sans-serif;color: #424242;
+   font-size: 16px;line-height: 1.7;font-weight: 400;display: flex;">
+   <div class="column seven-text-center" style="  text-align: center;flex-basis: 56.6666666667%;
+   width: 56.6666666667%;box-sizing: border-box;
+   flex: 0 1 auto;">
+   <a href="">
+    <img src="/images/products-coin.png" alt="" style="opacity: .8;cursor: pointer;
+  color: #444;border-style: none;max-width: 100%;width: 573px;height: 403px;">
+   </a>
+</div>
+<div class="columns four" style="flex-basis: 30.6666666667%;
+  width: 30.6666666667%;box-sizing: border-box;
+  flex: 0 1 auto;width: 337px;height: 332px;font-family: sans-serif;color: #424242;
+  font-size: 16px;line-height: 1.7;font-weight: 400;">
+  <h2 style=" font-size: 2rem;line-height: 1.5;margin-top: 0px;
+  font-weight: 500;
+  margin-bottom: 20px;font-family: sans-serif;">
+    Coin</h2>
+    <p style="font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 15px;color: #424242;font-family: sans-serif;font-weight: 400;">The central dashboard for your Zerodha account. Gain insights into your trades and investments with in-depth reports and visualisations. </p>
+
+<a href="" style="color: #387ed1;
+text-decoration: none;
+font-weight: 500;  background-color: rgba(0,0,0,0);">Learn more →</a>
+<div class="kite-mobile-links" style="margin-top: 25px;font-family: sans-serif;color: #424242;
+font-size: 16px;line-height: 1.7;font-weight: 400;">
+<a href="">
+  <img src="/images/google-play-badge.svg" alt="" style="margin-right: 15px;  height: 45px;  max-width: 100%;  border-style: none;"></a>
+<a href="">
+  <img src="/images/appstore-badge.svg" alt="" style=" height: 45px;  max-width: 100%;  border-style: none;">
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="kite_connect" class="products-section" style="padding: 80px 0 0 0;font-family: sans-serif;color: #424242;
+font-size: 16px;
+line-height: 1.7;
+font-weight: 400;">
+ <div class="container" style="position: relative;
+ width: 1100px;
+ max-width: 100%;
+ margin: 0 auto;
+ box-sizing: border-box;font-family: sans-serif;color: #424242;
+ font-size: 16px;
+ line-height: 1.7;
+ font-weight: 400;">
+  <div class="row between v-align" style="box-sizing: border-box;  flex-flow: row wrap;  justify-content: space-between;align-items: center;font-family: sans-serif;color: #424242;
+  font-size: 16px;line-height: 1.7;font-weight: 400;display: flex;">
+  
+<div class="columns four-img-right" style="  margin-left: 0;flex-basis: 30.6666666667%;
+ width: 30.6666666667%;box-sizing: border-box;font-family: sans-serif;color: #424242;
+ font-size: 16px;line-height: 1.7;font-weight: 400;
+ flex: 0 1 auto;">
+   <h2 style="font-size: 2rem;
+ line-height: 1.5;margin-top: 0px;
+ font-weight: 500;
+ margin-bottom: 20px;font-family: sans-serif;">Kite Connect API</h2>
+ <p style="font-size: 1rem;
+ line-height: 1.8;
+ margin-bottom: 15px;color: #424242;font-family: sans-serif;font-weight: 400;">Build powerful trading platforms and experiences with our super simple HTTP/JSON APIs. If you are a startup, build your investment app and showcase it to our clientbase.  </p>
+
+<a href="" style="color: #387ed1;
+text-decoration: none;
+font-weight: 500;  background-color: rgba(0,0,0,0);">Kite Connect →</a>
+</div>
+<div class="column seven-text-center" style="  text-align: center;flex-basis: 56.6666666667%;
+ width: 56.6666666667%;box-sizing: border-box;
+ flex: 0 1 auto;">
+ <a href="">
+<img src="/images/products-kiteconnect.png" alt="" style="max-width: 100%; border-style: none;width: 564px;height: 387px;">
+
+ </a>
+</div>
+</div>
+</div>
+</section>
+<section id="varsity" class="products-section" style="padding: 80px 0 0 0;font-family: sans-serif;color: #424242;
+font-size: 16px;
+line-height: 1.7;
+font-weight: 400;">
+<div class="container" style="position: relative;
+width: 1100px;
+max-width: 100%;
+margin: 0 auto;
+box-sizing: border-box;font-family: sans-serif;color: #424242;
+font-size: 16px;
+line-height: 1.7;
+font-weight: 400;">
+<div class="row between v-align" style="box-sizing: border-box;  flex-flow: row wrap;  justify-content: space-between;align-items: center;font-family: sans-serif;color: #424242;
+font-size: 16px;line-height: 1.7;font-weight: 400;display: flex;">
+
+
+<div class="column seven text-center" style="  margin-left: 0;  text-align: center;flex-basis: 56.6666666667%;width: 56.6666666667%;box-sizing: border-box;flex: 0 1 auto;font-family: sans-serif;color: #424242;
+font-size: 16px;line-height: 1.7;font-weight: 400;width: 623px;height: 428px;">
+<a href="">
+<img src="/images/varsity-products.png" alt="" style="  max-width: 100%;  border-style: none;width: 558px;height: 428px;">
+</a>
+</div>
+<div class="columns four" style="flex-basis: 30.6666666667%;
+width: 30.6666666667%;box-sizing: border-box;
+flex: 0 1 auto;width: 337px;height: 332px;font-family: sans-serif;color: #424242;
+font-size: 16px;line-height: 1.7;font-weight: 400;">
+<h2 style=" font-size: 2rem;line-height: 1.5;margin-top: 0px;
+font-weight: 500;
+margin-bottom: 20px;font-family: sans-serif;">
+Varsity Mobile</h2>
+<p style="font-size: 1rem;
+line-height: 1.8;
+margin-bottom: 15px;  color: #424242;font-family: sans-serif;font-weight: 400;">An easy to grasp, collection of stock market lessons with in-depth coverage and illustrations. Content is broken down into bite-size cards to help you learn on the go.  </p>
+
+<div class="kite-mobile-links" style="margin-top: 25px;font-family: sans-serif;color: #424242;
+font-size: 16px;line-height: 1.7;font-weight: 400;">
+<a href="">
+<img src="/images/google-play-badge.svg" alt="" style="margin-right: 15px;  height: 45px;  max-width: 100%;  border-style: none;"></a>
+<a href="">
+<img src="/images/appstore-badge.svg" alt="" style=" height: 45px;  max-width: 100%;  border-style: none;">
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="coin" class="products-section" style="padding: 80px 0 0 0;font-family: sans-serif;color: #424242;
+font-size: 16px;
+line-height: 1.7;
+font-weight: 400;">
+<div class="container" style="position: relative;
+width: 1100px;
+max-width: 100%;
+margin: 0 auto;
+box-sizing: border-box;font-family: sans-serif;color: #424242;
+font-size: 16px;
+line-height: 1.7;
+font-weight: 400;">
+<h5 class="text-center" style="margin-top: 60px; text-align: center;font-size: 1.25rem;
+  font-weight: 400;color: #424242;font-family: sans-serif;">
+  Want to know more about our technology stack? Check out the 
+ <a href="" style="color: #387ed1;font-family: sans-serif;font-weight: 400;  text-decoration: none;  background-color: rgba(0,0,0,0);text-align: center;font-size: 1.25rem;">Zerodha.tech</a>
+blog.</h5>
+</div>
+</section>
+<section id="partner_products" class="products-section" style="padding: 80px 0 0 0;font-family: sans-serif;color: #424242;
+font-size: 16px;
+line-height: 1.7;
+font-weight: 400;">
+<div class="container" style="position: relative;
+width: 1100px;
+max-width: 100%;
+margin: 0 auto;
+box-sizing: border-box;font-family: sans-serif;color: #424242;
+font-size: 16px;
+line-height: 1.7;
+font-weight: 400;">
+<h2 style="margin-top: 0px;
+font-weight: 500;
+margin-bottom: 20px;  text-align: center;font-size: 2rem;
+line-height: 1.5;color: #424242;font-family: sans-serif;">
+  The Zerodha Universe</h2>
+  <p style="text-align: center;font-size: 1rem;line-height: 1.8;margin-bottom: 15px;color: #424242;font-family: sans-serif;font-weight: 400;"> Extend your trading and investment experience even further with our partner platforms </p>
+  <div class="row evenly v-align " style="  margin-top: 40px;align-items: center;
+  display: flex;  justify-content: space-evenly;  box-sizing: border-box;  flex-flow: row wrap;  text-align: center;color: #424242;font-family: sans-serif;font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;">
+  
+<a href="" style="display: block;
+margin-top: 20px;
+text-align: center;
+color: #424242;text-decoration: none;
+font-weight: 500;  background-color: rgba(0,0,0,0);font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.7;">
+    <img src="/images/smallcase-logo.png" alt="" style="  height: 55px;  max-width: 100%;  border-style: none;text-align: center;
+  color: #424242;">
+  <br>
+  <span class="text-12 text-light-grey" style="  color: #9b9b9b;  font-size: .75rem;  text-align: center;font-weight: 500;">Thematic investment platform</span>
+</a>
+  
+<a href="" style="display: block;
+margin-top: 20px;
+text-align: center;
+color: #424242;text-decoration: none;
+font-weight: 500;  background-color: rgba(0,0,0,0);font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.7;">
+    <img src="/images/streak-logo.png" alt="" style="  height: 55px;  max-width: 100%;  border-style: none;text-align: center;
+  color: #424242;">
+  <br>
+  <span class="text-12 text-light-grey" style="  color: #9b9b9b;  font-size: .75rem;  text-align: center;font-weight: 500;">Algo & strategy platform</span>
+</a>
+  
+<a href="" style="display: block;
+margin-top: 20px;
+text-align: center;
+color: #424242;text-decoration: none;
+font-weight: 500;  background-color: rgba(0,0,0,0);font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.7;">
+    <img src="/images/sensibull-logo.svg" alt="" style="  height: 55px;  max-width: 100%;  border-style: none;text-align: center;
+  color: #424242;">
+  <br>
+  <span class="text-12 text-light-grey" style="  color: #9b9b9b;  font-size: .75rem;  text-align: center;font-weight: 500;">Options trading platform</span>
+
+</a>
+</div>
+<div class="row evenly v-align " style="  margin-top: 40px;align-items: center;
+display: flex;  justify-content: space-evenly;  box-sizing: border-box;  flex-flow: row wrap;  text-align: center;color: #424242;font-family: sans-serif;font-size: 16px;
+line-height: 1.7;
+font-weight: 400;">
+
+<a href="" style="display: block;
+margin-top: 20px;
+text-align: center;
+color: #424242;text-decoration: none;
+font-weight: 500;  background-color: rgba(0,0,0,0);font-family: sans-serif;
+font-size: 16px;
+line-height: 1.7;">
+  <img src="/images/zerodhafundhouse.png" alt="" style="  height: 55px;  max-width: 100%;  border-style: none;text-align: center;
+color: #424242;">
+<br>
+<span class="text-12 text-light-grey" style="  color: #9b9b9b;  font-size: .75rem;  text-align: center;font-weight: 500;">Asset management</span>
+</a>
+
+<a href="" style="display: block;
+margin-top: 20px;
+text-align: center;
+color: #424242;text-decoration: none;
+font-weight: 500;  background-color: rgba(0,0,0,0);font-family: sans-serif;
+font-size: 16px;
+line-height: 1.7;">
+  <img src="/images/tijori.svg" alt="" style="  height: 55px;  max-width: 100%;  border-style: none;text-align: center;
+color: #424242;">
+<br>
+<span class="text-12 text-light-grey" style="  color: #9b9b9b;  font-size: .75rem;  text-align: center;font-weight: 500;">Fundamental research platform</span>
+</a>
+
+<a href="" style="display: block;
+margin-top: 20px;
+text-align: center;
+color: #424242;text-decoration: none;
+font-weight: 500;  background-color: rgba(0,0,0,0);font-family: sans-serif;
+font-size: 16px;
+line-height: 1.7;">
+  <img src="/images/ditto-logo.png" alt="" style="  height: 55px;  max-width: 100%;  border-style: none;text-align: center;
+color: #424242;">
+<br>
+<span class="text-12 text-light-grey" style="  color: #9b9b9b;  font-size: .75rem;  text-align: center;font-weight: 500;">Insurance</span>
+
+</a>
+</div>
+</div>
+</section>
+<section class="kite-sections text-center kite-footer-container" style="  padding-bottom: 80px;  padding: 40px 0;  text-align: center;  color: #424242;">
+    <div class="container" style="width: 900px;
+    margin: auto;
+    max-width: 100%;
+    box-sizing: border-box;  text-align: center;color: #424242;">
+    <a href="" style="  margin-top: 20px;background-color: #387ed1;
+    color: #fff;
+    border: 1px solid rgba(0,0,0,0) !important;
+    border-radius: 3px;display: inline-block;
+    padding: 10px 30px;text-align: center;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;cursor: pointer;
+  box-sizing: border-box;font-family: sans-serif;"
+  onmouseover="this.style.backgroundColor='black'; this.style.color='white';"
+  onmouseout="this.style.backgroundColor='#387ed1'; this.style.color='white';"
+  >Sign up now</a>
+
+</div>
+</section>
+</main>
+</main>
+<footer id="footer" style="background-color: #fbfbfb;
+    padding: 30px 0 5px 0;
+    border-top: 1px solid #eee;color: #424242;font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;width: 1440px; height: 771px;">
+  <div class="container" style="position: relative;
+  width: 1100px;
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;  color: #424242;font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;width: 1100px;height: 771px;">
+<div class="row betweenmain-footer" style="justify-content: space-between;box-sizing: border-box;
+display: flex;
+flex: 0 1 auto;
+flex-flow: row wrap;  color: #424242;font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;width: 1100px; height: 334px;">
+  <div class="columns three" style="margin-left: 0;flex-basis: 22%;
+  width: 22%;box-sizing: border-box;
+  flex: 0 1 auto;
+    flex-basis: auto;color: #424242;font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;width: 242px;height: 334px;">
+
+<div class="footer-logo" style="padding: 10px 0;  color: #424242;font-family: sans-serif; width: 242px;height: 27px;
+font-size: 16px;
+line-height: 1.7;
+font-weight: 400;
+">
+    <img src="/images/logo.svg" alt="" style="max-height: 20px;
+  width: auto;  max-width: 100%;  border-style: none;  color: #424242;font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;width: 152px;height: 20px;">
+</div>
+<p style="margin: 0;
+  font-size: .8rem;  color: #666;  line-height: 1.8;font-family: sans-serif;
+ 
+  line-height: 1.7;
+ width: 242px;height: 23px;">© 2010 - 2024, Zerodha Broking Ltd.</p>
+<p style="margin: 0;
+  font-size: .8rem;  color: #666;  line-height: 1.8;font-family: sans-serif;
+  
+  line-height: 1.7;
+   width: 242px;height: 23px;"> All rights reserved.</p>
+  <img src="/images/footer-links.png" alt=""  style="width: 242px; margin-left: -10px; height: 70px; margin-top: 10px;">
+  </div>
+<div class="columns three" style="flex-basis: 22%;
+  width: 22%;box-sizing: border-box;
+  flex: 0 1 auto;  color: #424242;font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400; width: 242px;height: 334px;">
+  <ul class="list-style" style="list-style-type: none;
+  margin: 0;
+  padding: 0;  color: #424242;font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;width: 242px;height: 302px;">
+
+<li class="nav-head" style="font-size: 1.125rem;
+font-weight: 500;
+margin-bottom: 10px;line-height: 2;  list-style-type: none;  color: #424242;  font-family: sans-serif; width: 242px; height: 36px;">Company</li>
+<li style="  line-height: 2;  list-style-type: none;  color: #424242;font-family: sans-serif;
+font-size: 16px;
+width: 242px;height: 32px;
+font-weight: 400;">
+    <a href="./about.html" style="  color: #666;text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);line-height: 2;list-style-type: none;font-family: sans-serif;
+  font-size: 16px;">About</a>
+</li>
+<li style="  line-height: 2;  list-style-type: none;  color: #424242;font-family: sans-serif;
+font-size: 16px;
+width: 242px;height: 32px;
+font-weight: 400;">
+    <a href="" style="  color: #666;text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);line-height: 2;list-style-type: none;font-family: sans-serif;
+  font-size: 16px;">Products</a>
+</li>
+<li style="  line-height: 2;  list-style-type: none;  color: #424242;font-family: sans-serif;
+font-size: 16px;
+width: 242px;height: 32px;
+font-weight: 400;">
+    <a href="" style="  color: #666;text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);line-height: 2;list-style-type: none;font-family: sans-serif;
+  font-size: 16px;">Pricing</a>
+</li>
+<li style="  line-height: 2;  list-style-type: none;  color: #424242;font-family: sans-serif;
+font-size: 16px;
+width: 242px;height: 32px;
+font-weight: 400;">
+    <a href="" style="  color: #666;text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);line-height: 2;list-style-type: none;font-family: sans-serif;
+  font-size: 16px;">Refferal programme</a>
+</li>
+<li style="  line-height: 2;  list-style-type: none;  color: #424242;font-family: sans-serif;
+font-size: 16px;
+width: 242px;height: 32px;
+font-weight: 400;">
+    <a href="" style="  color: #666;text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);line-height: 2;list-style-type: none;font-family: sans-serif;
+  font-size: 16px;">Careers</a>
+</li>
+<li style="  line-height: 2;  list-style-type: none;  color: #424242;font-family: sans-serif;
+font-size: 16px;
+width: 242px;height: 32px;
+font-weight: 400;">
+    <a href="" style="  color: #666;text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);line-height: 2;list-style-type: none;font-family: sans-serif;
+  font-size: 16px;">Zerodha.tech</a>
+</li>
+<li style="  line-height: 2;  list-style-type: none;  color: #424242;font-family: sans-serif;
+font-size: 16px;
+width: 242px;height: 32px;
+font-weight: 400;">
+    <a href="" style="  color: #666;text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);line-height: 2;list-style-type: none;font-family: sans-serif;
+  font-size: 16px;">Press & media</a>
+</li>
+<li style="  line-height: 2;  list-style-type: none;  color: #424242;font-family: sans-serif;
+font-size: 16px;
+width: 242px;height: 32px;
+font-weight: 400;">
+    <a href="" style="  color: #666;text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);line-height: 2;list-style-type: none;font-family: sans-serif;
+  font-size: 16px;">Zerodha Cares (CSR)</a>
+</li>
+
+  </ul>
+</div>
+<div class="columns three" style="flex-basis: 22%;
+  width: 22%;box-sizing: border-box;
+  flex: 0 1 auto;  color: #424242;font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400; width: 242px;height: 334px;">
+  <ul class="list-style" style="list-style-type: none;
+  margin: 0;
+  padding: 0;  color: #424242;font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;width: 242px;height: 302px;">
+
+<li class="nav-head" style="font-size: 1.125rem;
+font-weight: 500;
+margin-bottom: 10px;line-height: 2;  list-style-type: none;  color: #424242;  font-family: sans-serif; width: 242px; height: 36px;">Support</li>
+<li style="  line-height: 2;  list-style-type: none;  color: #424242;font-family: sans-serif;
+font-size: 16px;
+width: 242px;height: 32px;
+font-weight: 400;">
+    <a href="" style="  color: #666;text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);line-height: 2;list-style-type: none;font-family: sans-serif;
+  font-size: 16px;">Contact us</a>
+</li>
+<li style="  line-height: 2;  list-style-type: none;  color: #424242;font-family: sans-serif;
+font-size: 16px;
+width: 242px;height: 32px;
+font-weight: 400;">
+    <a href="" style="  color: #666;text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);line-height: 2;list-style-type: none;font-family: sans-serif;
+  font-size: 16px;">Support portal</a>
+</li>
+<li style="  line-height: 2;  list-style-type: none;  color: #424242;font-family: sans-serif;
+font-size: 16px;
+width: 242px;height: 32px;
+font-weight: 400;">
+    <a href="" style="  color: #666;text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);line-height: 2;list-style-type: none;font-family: sans-serif;
+  font-size: 16px;">Z-Connect blog</a>
+</li>
+<li style="  line-height: 2;  list-style-type: none;  color: #424242;font-family: sans-serif;
+font-size: 16px;
+width: 242px;height: 32px;
+font-weight: 400;">
+    <a href="" style="  color: #666;text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);line-height: 2;list-style-type: none;font-family: sans-serif;
+  font-size: 16px;">List of charges</a>
+</li>
+<li style="  line-height: 2;  list-style-type: none;  color: #424242;font-family: sans-serif;
+font-size: 16px;
+width: 242px;height: 32px;
+font-weight: 400;">
+    <a href="" style="  color: #666;text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);line-height: 2;list-style-type: none;font-family: sans-serif;
+  font-size: 16px;">Downloads & resources</a>
+</li>
+<li style="  line-height: 2;  list-style-type: none;  color: #424242;font-family: sans-serif;
+font-size: 16px;
+width: 242px;height: 32px;
+font-weight: 400;">
+    <a href="" style="  color: #666;text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);line-height: 2;list-style-type: none;font-family: sans-serif;
+  font-size: 16px;">Videos</a>
+</li>
+<li style="  line-height: 2;  list-style-type: none;  color: #424242;font-family: sans-serif;
+font-size: 16px;
+width: 242px;height: 32px;
+font-weight: 400;">
+    <a href="" style="  color: #666;text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);line-height: 2;list-style-type: none;font-family: sans-serif;
+  font-size: 16px;">Market overview</a>
+</li>
+<li style="  line-height: 2;  list-style-type: none;  color: #424242;font-family: sans-serif;
+font-size: 16px;
+width: 242px;height: 32px;
+font-weight: 400;">
+    <a href="" style="  color: #666;text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);line-height: 2;list-style-type: none;font-family: sans-serif;
+  font-size: 16px;">How to file  a complaint?</a>
+</li>
+<li style="  line-height: 2;  list-style-type: none;  color: #424242;font-family: sans-serif;
+font-size: 16px;
+width: 242px;height: 32px;
+font-weight: 400;">
+    <a href="" style="  color: #666;text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);line-height: 2;list-style-type: none;font-family: sans-serif;
+  font-size: 16px;">Status of your complaints</a>
+</li>
+  </ul></div>
+  <div class="columns three" style="flex-basis: 22%;
+  width: 22%;box-sizing: border-box;
+  flex: 0 1 auto;  color: #424242;font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400; width: 242px;height: 334px;">
+  <ul class="list-style" style="list-style-type: none;
+  margin: 0;
+  padding: 0;  color: #424242;font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;width: 242px;height: 302px;">
+
+<li class="nav-head" style="font-size: 1.125rem;
+font-weight: 500;
+margin-bottom: 10px;line-height: 2;  list-style-type: none;  color: #424242;  font-family: sans-serif; width: 242px; height: 36px;">Account</li>
+<li style="  line-height: 2;  list-style-type: none;  color: #424242;font-family: sans-serif;
+font-size: 16px;
+width: 242px;height: 32px;
+font-weight: 400;">
+    <a href="" style="  color: #666;text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);line-height: 2;list-style-type: none;font-family: sans-serif;
+  font-size: 16px;">Open an account</a>
+</li>
+<li style="  line-height: 2;  list-style-type: none;  color: #424242;font-family: sans-serif;
+font-size: 16px;
+width: 242px;height: 32px;
+font-weight: 400;">
+    <a href="" style="  color: #666;text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);line-height: 2;list-style-type: none;font-family: sans-serif;
+  font-size: 16px;">Fund transfer</a>
+</li>
+</ul>
+</div>
+</div>  
+<div class="row smallprint" style="color: #9b9b9b;
+  margin-top: 40px;box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: row wrap;font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;">
+  <p style="font-size: .65rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+  width: 100%;  line-height: 1.8;  color: #9b9b9b; font-family: sans-serif;font-weight: 400;">
+    Zerodha Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI Registration no.: INZ000031633 CDSL/NSDL: Depository services through Zerodha Broking Ltd. – SEBI Registration no.: IN-DP-431-2019 Commodity Trading through Zerodha Commodities Pvt. Ltd. MCX: 46025; NSE-50001 – SEBI Registration no.: INZ000038238 Registered Address: Zerodha Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For any complaints pertaining to securities broking please write to ,for DP related to 
+    <a href="mailto:complaints@zerodha.com" style="color: #387ed1;
+    text-decoration: none;
+    font-weight: 500;  background-color: rgba(0,0,0,0);font-size: .65rem;line-height: 1.8;">complaints@zerodha.com</a>
+    <a href="mailto:dp@zerodha.com" style="color: #387ed1;
+    text-decoration: none;
+    font-weight: 500;  background-color: rgba(0,0,0,0);font-size: .65rem;line-height: 1.8;">dp@zerodha.com</a> . Please ensure you carefully read the Risk Disclosure Document as prescribed by SEBI | ICF 
+  </p>
+  <p style="font-size: .65rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+  width: 100%;  line-height: 1.8;  color: #9b9b9b; font-family: sans-serif;font-weight: 400;">Procedure to file a complaint on
+  <a href="" target="_blank" style="color: #387ed1;
+  text-decoration: none;
+  font-weight: 500;  background-color: rgba(0,0,0,0);font-size: .65rem;line-height: 1.8;">SEBI SCORES</a>: Register on SCORES portal. Mandatory details for filing complaints on SCORES: Name, PAN, Address, Mobile Number, E-mail ID. Benefits: Effective Communication, Speedy redressal of the grievances </p>
+  <p style="font-size: .65rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+  width: 100%;  line-height: 1.8;  color: #9b9b9b; font-family: sans-serif;font-weight: 400;">
+    <a href="" target="_blank" style="color: #387ed1;
+    text-decoration: none;
+    font-weight: 500;  background-color: rgba(0,0,0,0);font-size: .65rem;line-height: 1.8;">Smart Online Dispute Resolution</a> |
+    <a href="" target="_blank" style="color: #387ed1;
+    text-decoration: none;
+    font-weight: 500;  background-color: rgba(0,0,0,0);font-size: .65rem;line-height: 1.8;">Grievances Redressal Mechanism</a>
+  </p>
+<p style="font-size: .65rem;
+margin-top: 0;
+margin-bottom: 10px;
+width: 100%;  line-height: 1.8;  color: #9b9b9b; font-family: sans-serif;font-weight: 400;"> Investments in securities market are subject to market risks; read all the related documents carefully before investing. </p>
+<p style="font-size: .65rem;
+margin-top: 0;
+margin-bottom: 10px;
+width: 100%;  line-height: 1.8;  color: #9b9b9b; font-family: sans-serif;font-weight: 400;">Attention investors: 1) Stock brokers can accept securities as margins from clients only by way of pledge in the depository system w.e.f September 01, 2020. 2) Update your e-mail and phone number with your stock broker / depository participant and receive OTP directly from depository on your e-mail and/or mobile number to create pledge. 3) Check your securities / MF / bonds in the consolidated account statement issued by NSDL/CDSL every month. </p>
+<p style="font-size: .65rem;
+margin-top: 0;
+margin-bottom: 10px;
+width: 100%;  line-height: 1.8;  color: #9b9b9b; font-family: sans-serif;font-weight: 400;">"Prevent unauthorised transactions in your account. Update your mobile numbers/email IDs with your stock brokers. Receive information of your transactions directly from Exchange on your mobile/email at the end of the day. Issued in the interest of investors. KYC is one time exercise while dealing in securities markets - once KYC is done through a SEBI registered intermediary (broker, DP, Mutual Fund etc.), you need not undergo the same process again when you approach another intermediary." Dear Investor, if you are subscribing to an IPO, there is no need to issue a cheque. Please write the Bank account number and sign the IPO application form to authorize your bank to make payment in case of allotment. In case of non allotment the funds will remain in your bank account. As a business we don't give stock tips, and have not authorized anyone to trade on behalf of others. If you find anyone claiming to be part of Zerodha and offering such services, please 
+<a href="" style="color: #387ed1;
+text-decoration: none;
+font-weight: 500;  background-color: rgba(0,0,0,0);font-size: .65rem;line-height: 1.8;">create a ticket here</a>. 
+</p>
+</div>
+<div class="footer-graveyard-links text-center" style="text-align: center;  color: #424242;font-family: sans-serif;width: 110px;height: 48px;
+font-size: 16px;
+line-height: 1.7;
+font-weight: 400;">
+
+<ul style="list-style-type: none;
+margin: 0;
+padding: 0;  text-align: center;  color: #424242;font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;width: 1100px;height: 48px;">
+    <li style="display: inline;
+    font-size: .8rem;
+    margin-right: 20px;list-style-type: none;text-align: center;color: #424242;font-family: sans-serif;width: 27px;height: 15px;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;">
+  <a href="" style="color: #9b9b9b;
+  line-height: 4;
+  font-size: .75rem;text-decoration: none;
+  font-weight: 500;background-color: rgba(0,0,0,0);list-style-type: none;text-align: center;font-family: sans-serif;">NSE</a>
+
+    </li>
+    <li style="display: inline;
+    font-size: .8rem;
+    margin-right: 20px;list-style-type: none;text-align: center;color: #424242;font-family: sans-serif;width: 27px;height: 15px;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;">
+        <a href=""  href="" style="color: #9b9b9b;
+        line-height: 4;
+        font-size: .75rem;text-decoration: none;
+        font-weight: 500;background-color: rgba(0,0,0,0);list-style-type: none;text-align: center;font-family: sans-serif;">BSE</a>
+    </li>
+    <li style="display: inline;
+    font-size: .8rem;
+    margin-right: 20px;list-style-type: none;text-align: center;color: #424242;font-family: sans-serif;width: 27px;height: 15px;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;">
+        <a href=""  href="" style="color: #9b9b9b;
+        line-height: 4;
+        font-size: .75rem;text-decoration: none;
+        font-weight: 500;background-color: rgba(0,0,0,0);list-style-type: none;text-align: center;font-family: sans-serif;">MCX</a>
+    </li>
+    <li style="display: inline;
+    font-size: .8rem;
+    margin-right: 20px;list-style-type: none;text-align: center;color: #424242;font-family: sans-serif;width: 27px;height: 15px;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;">
+        <a href=""  href="" style="color: #9b9b9b;
+        line-height: 4;
+        font-size: .75rem;text-decoration: none;
+        font-weight: 500;background-color: rgba(0,0,0,0);list-style-type: none;text-align: center;font-family: sans-serif;">Terms & conditions</a>
+    </li>
+    <li style="display: inline;
+    font-size: .8rem;
+    margin-right: 20px;list-style-type: none;text-align: center;color: #424242;font-family: sans-serif;width: 27px;height: 15px;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;">
+        <a href=""  href="" style="color: #9b9b9b;
+        line-height: 4;
+        font-size: .75rem;text-decoration: none;
+        font-weight: 500;background-color: rgba(0,0,0,0);list-style-type: none;text-align: center;font-family: sans-serif;">Policies & procdeures</a>
+    </li>
+    <li style="display: inline;
+    font-size: .8rem;
+    margin-right: 20px;list-style-type: none;text-align: center;color: #424242;font-family: sans-serif;width: 27px;height: 15px;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;">
+        <a href=""  href="" style="color: #9b9b9b;
+        line-height: 4;
+        font-size: .75rem;text-decoration: none;
+        font-weight: 500;background-color: rgba(0,0,0,0);list-style-type: none;text-align: center;font-family: sans-serif;">Privacy policy</a>
+    </li>
+    <li style="display: inline;
+    font-size: .8rem;
+    margin-right: 20px;list-style-type: none;text-align: center;color: #424242;font-family: sans-serif;width: 27px;height: 15px;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;">
+        <a href=""  href="" style="color: #9b9b9b;
+        line-height: 4;
+        font-size: .75rem;text-decoration: none;
+        font-weight: 500;background-color: rgba(0,0,0,0);list-style-type: none;text-align: center;font-family: sans-serif;">Disclosure</a>
+    </li>
+    <li style="display: inline;
+    font-size: .8rem;
+    margin-right: 20px;list-style-type: none;text-align: center;color: #424242;font-family: sans-serif;width: 27px;height: 15px;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;">
+        <a href=""  href="" style="color: #9b9b9b;
+        line-height: 4;
+        font-size: .75rem;text-decoration: none;
+        font-weight: 500;background-color: rgba(0,0,0,0);list-style-type: none;text-align: center;font-family: sans-serif;">For Investor's attention</a>
+    </li>
+    <li style="display: inline;
+    font-size: .8rem;
+    margin-right: 20px;list-style-type: none;text-align: center;color: #424242;font-family: sans-serif;width: 27px;height: 15px;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 400;">
+        <a href=""  href="" style="color: #9b9b9b;
+        line-height: 4;
+        font-size: .75rem;text-decoration: none;
+        font-weight: 500;background-color: rgba(0,0,0,0);list-style-type: none;text-align: center;font-family: sans-serif;">Investor charter</a>
+    </li>
+
+</ul></div>
+</div>
+
+
+
+        
+    </footer>
+</body>
+</html>
