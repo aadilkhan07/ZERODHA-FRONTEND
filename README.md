@@ -15,4 +15,4 @@ This repository contains a single HTML file that demonstrates a basic navigation
 To view the webpage locally:
 1. Clone this repository to your local machine using `git clone <repository-url>`.
 2. Navigate to the project directory: `cd <project-directory>`.
-3. Open `index.html` in your preferred web browser.
+3. Open `zerodha.html` in your preferred web browser.
